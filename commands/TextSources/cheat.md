@@ -1,9 +1,3 @@
----
-title: Cheat
-layout: home
-parent: Textsources
-grand_parent: Lua-Commands
----
 ## Cheat
 ```ts.Cheat.GlobalCheats.ToggleUpgradeCheck()```
 >Everything? is instant upgradeable.

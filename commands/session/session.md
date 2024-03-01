@@ -1,8 +1,3 @@
----
-title: session
-layout: home
-parent: Lua-Commands
----
 # session
 ```session.toggleResidentView()```
 >goes into first Person mode to current selected Building

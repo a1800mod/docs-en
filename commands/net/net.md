@@ -1,8 +1,3 @@
----
-title: net
-layout: home
-parent: Lua-Commands
----
 # net
 ```net.showOverlayUrl(URL:string)```
 >url can be anything e.g. ```"www.google.de"```

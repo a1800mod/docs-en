@@ -1,9 +1,3 @@
----
-title: game
-layout: default
-parent: Lua-Commands
----
-
 # game
 ```game.getCorporationTime()```
 >get Session? time in ms
