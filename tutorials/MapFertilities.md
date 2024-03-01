@@ -1,25 +1,7 @@
-# Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Fertilities](#fertilities)
-  - [Datamine](#datamine)
-  - [Fertility Sets](#fertility-sets)
-    - [Example](#example)
-  - [Generation](#generation)
-    - [ResourceSetCondition](#resourcesetcondition)
-    - [AllowedRegion](#allowedregion)
-    - [AllowedIslandDifficulty](#allowedislanddifficulty)
-    - [AllowedIslandDifficulty](#allowedislanddifficulty-1)
-    - [AllowedResourceAmounts](#allowedresourceamounts)
-  - [Modding Fertility Sets](#modding-fertility-sets)
-    - [Restrictions](#restrictions)
-    - [Removing Fertilities](#removing-fertilities)
-
 # Fertilities
-Short introduction on how fertilities are determined and a little how they are included into the map generation[^1].
-[^1]: Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.
---Fertilities are defined for every island and depend on the type of island.
+Short introduction on how fertilities are determined and a little how they are included into the map generation^[Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.].
 ## Datamine
-In this section we take first a look at possible (vanilla) datasets[^2], as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
+In this section we take first a look at possible (vanilla) datasets^[Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)], as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
 <div align="center">
     <table>
         <tr><td>
@@ -42,13 +24,10 @@ In this section we take first a look at possible (vanilla) datasets[^2], as a ba
     </table>
 </div>
 
-[^2]: Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)
-
 ## Fertility Sets
 Taking a look inside the assets.xml or on [a1800.net](http://a1800.net/?itemSearch=FertilitySet&prevSearch=) shows that there are 121 different fertily sets. Every set has its own combinations of the possible datasets, combined with a certain amount of fertilities.
 ### Example
-For this example we use fertility "Set 1" with Guid 141508[^3] with potatoe and grain fertility.
-[^3]: [a1800.net](http://a1800.net/?itemSearch=141508)
+For this example we use fertility "Set 1" with Guid 141508^[[a1800.net](http://a1800.net/?itemSearch=141508)] with potatoe and grain fertility.
 ```xml
 <Asset>
     <Template>FertilitySet</Template>
@@ -89,7 +68,7 @@ Looking at the [Example](#example-3) `<ResourceSetCondition>` defines the condit
 ### AllowedIslandDifficulty
 `<AllowedIslandType>Normal;Starter</AllowedIslandType>` tells on which island types this set is used. `Normal` or `Starter`. The starter island is the one a harbor is build when choosing starting conditions "Harbour". Normal are the island which have the same size as the starter island but have some things less because starter islands are given some fixed things like oil and potatoes.
 ### AllowedIslandDifficulty
-`<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>` tells on which diffifulty setting this fertilityset is used. This example will not be used when choosing the "easy" settings.
+`<AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>` tells on which diffifulty setting this fertilityset is used.
 ### AllowedResourceAmounts
 `<AllowedResourceAmounts>Low</AllowedResourceAmounts>` Here we see another setting that is defined when you setup the game, the Allowed resources. When this setting is set to LOW, this fertilityset will be used. Otherwise if you would habe choosen PLENTY and the other I can not remember at the moment. This set will not be given to an island.
 ## Modding Fertility Sets
