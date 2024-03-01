@@ -27,7 +27,8 @@ In this section we take first a look at possible (vanilla) datasets^[Dataset: Is
 ## Fertility Sets
 Taking a look inside the assets.xml or on [a1800.net](http://a1800.net/?itemSearch=FertilitySet&prevSearch=) shows that there are 121 different fertily sets. Every set has its own combinations of the possible datasets, combined with a certain amount of fertilities.
 ### Example
-For this example we use fertility "Set 1" with Guid 141508^[[a1800.net](http://a1800.net/?itemSearch=141508)] with potatoe and grain fertility.
+For this example we use fertility "Set 1" with Guid 141508[^3] with potatoe and grain fertility.
+[^3]: [a1800.net](http://a1800.net/?itemSearch=141508)
 ```xml
 <Asset>
     <Template>FertilitySet</Template>
