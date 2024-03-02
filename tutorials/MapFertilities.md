@@ -61,13 +61,14 @@ For this example we use fertility "Set 1" with Guid 141508[^3] with potatoe and 
 ## Generation
 Depending on the seed and difficultysettings at the start of the game are islands and their respective fertilities. Choosing a fixed setup means also fixed fertilities. After entering the new game, the islands and fertilities are predetermined and cannot be changed unless the player is starting a new game.
 Which islands the game chooses depends on the difficulty settings choosen at the setup of the game. Each setup combination has its own map pool to chose from, thus it uses the pool from the <mark>fertilitysets</mark>.
+
 ?>A starter island for example always has potatoes and oil.
 ### ResourceSetCondition
 Looking at the [Example](#example-3) <mark><ResourceSetCondition></mark>defines the conditions for this set.
 ### AllowedRegion
 <mark>\<AllowedRegion\>Moderate\</AllowedRegion\></mark>The region this set is used is in the moderate region, which is Old World and Cape. It is possible to add the New World, Arctic, New World and/or Enbesa here, this would make those fertilities also there available. 
 ### AllowedIslandType
-<mark>\<AllowedIslandType\>Normal;Starter\</AllowedIslandType></mark>tells on which island types this set is used.<mark>Normal</mark>or<mark>Starter<mark>. The starter island is the one a harbor is build when choosing starting conditions "Harbour". Normal are the island which have the same size as the starter island but have some things less because starter islands are given some fixed things like oil and potatoes.
+<mark>\<AllowedIslandType\>Normal;Starter\</AllowedIslandType></mark>tells on which island types this set is used.<mark>Normal</mark>or<mark>Starter</mark>. The starter island is the one a harbor is build when choosing starting conditions "Harbour". Normal are the island which have the same size as the starter island but have some things less because starter islands are given some fixed things like oil and potatoes.
 ### AllowedIslandDifficulty
 <mark>\<AllowedIslandDifficulty\>Normal;Hard\</AllowedIslandDifficulty\></mark>tells on which diffifulty setting this fertilityset is used.
 ### AllowedResourceAmounts

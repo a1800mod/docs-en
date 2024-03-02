@@ -7,6 +7,7 @@ forces ruins to current selected Object (Player or NPC) or destroys ship. Does n
 
 ```session.getSessionGUID()```
 >returns... a number
+
 ```session.forceWeather(Weather:string)```
 >forces the weather of the current session to Weather
 > Possible values:
