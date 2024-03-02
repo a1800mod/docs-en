@@ -2,6 +2,8 @@
 
 - [HOME](./)
 
+- Basics
+  - [Paths](/en/basics/path)
 - Lua
   - [Lua-Commands](/en/commands/index)
     - [TextSources](/en/commands/TextSources/ts)
