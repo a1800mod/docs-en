@@ -1,8 +1,9 @@
 <!-- _sidebar.md -->
 
-- [HOME](./)
+- [HOME](/en/)
 
 - Basics
+  - [Programs](/en/basics/programs)
   - [Paths](/en/basics/path)
 - Lua
   - [Lua-Commands](/en/commands/index)
