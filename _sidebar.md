@@ -3,6 +3,7 @@
 - [HOME](/en/)
 
 - Basics
+  - [Installing Mods](/en/basics/installing)
   - [Programs](/en/basics/programs)
   - [Paths](/en/basics/path)
 - Lua
