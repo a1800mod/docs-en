@@ -1,12 +1,20 @@
 # net
-```net.showOverlayUrl(URL:string)```
->url can be anything e.g. ```"www.google.de"```
+```
+net.showOverlayUrl(URL:string)
+```
+>url can be anything e.g. "www.google.de"
 
-```net.forceDeSync()```
+```
+net.forceDeSync()
+```
 >forces desync...
 
-```net.suspendStorm()```
+```
+net.suspendStorm()
+```
 >anno goes offline
 
-```net.resumeStorm()```
+```
+net.resumeStorm()
+```
 >anno goes online

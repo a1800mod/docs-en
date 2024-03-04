@@ -8,7 +8,9 @@
 ```session.getSessionGUID()```
 >returns... a number
 
-```session.forceWeather(Weather:string)```
+```
+session.forceWeather(Weather:string)
+```
 >forces the weather of the current session to the designated weather
 
 Possible values:
