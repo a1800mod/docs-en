@@ -2,6 +2,9 @@
 Short introduction on how fertilities are determined and a little how they are included into the map generation^[Original by Hier0nimus; Got permission to copy this via discord. Rewritten and modified by me.].
 ## Datamine
 In this section we take first a look at possible (vanilla) datasets^[Dataset: IslandType (Id: 431); IslandDifficulty (Id: 429); ResourceAmount (Id: 433)], as a basis to learn which combinations might be possible. Datasets can be easy looked up at [a1800.net](http://a1800.net/). For further investigation it is given to always have the vanilla version.
+
+<div align="center">
+
 | Types of islands: | Difficulty of islands: | Resource amount: |
 | :---: | :---: | :---: |
 | Normal | Normal | Low |
@@ -9,6 +12,8 @@ In this section we take first a look at possible (vanilla) datasets^[Dataset: Is
 | Decoration | | High |
 | PirateIsland | | |
 | CliffIsland | | |
+    
+</div>
 
 ## Fertility Sets
 Taking a look inside the assets.xml or on [a1800.net](http://a1800.net/?itemSearch=FertilitySet&prevSearch=) shows that there are 121 different fertily sets. Every set has its own combinations of the possible datasets, combined with a certain amount of fertilities.
