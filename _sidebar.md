@@ -5,8 +5,9 @@
   - [Installing Mods](/en/basics/installing)
   - [Programs](/en/basics/programs)
   - [Paths](/en/basics/path)
-  - [ModOp]
-  - [Modinfo]
+  - [Copyright](/en/basics/copyright)
+  - [ModOp](/en/basics/modop)
+  - [Modinfo](/en/basics/modinfo)
 - Assets
   - [Triggers]
 - Lua
