@@ -20,6 +20,8 @@ There are two interesting log types:
 
 This log contains information about logs and its status of loading.
 
+>Path: %USERPROFILE%\Documents\Anno 1800\log
+
 Info means the mod was successfully loaded.
 
 > [date-time] [info] Load [Misc] InstantShipBuild (0.0.1, InstantShipBuild) from C:\Users\Public\mod.io\4169\mods\3595702\InstantShipBuild
