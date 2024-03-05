@@ -1,9 +1,9 @@
 # License
-> This section is only to provide some hints, it is no legal advise! If there are questions open try asking for advise or cunsult a professional!
+!> This section is only to provide some hints, it is no legal advise! If there are questions open try asking for advise or cunsult a professional!
 
 ## No License
 
-The default setting of any published work is <mark>no license</mark>. This means it is under exclusive copyright by the creator of said work.
+The default setting of any published work is <mark>no license</mark>. This means it is under exclusive copyright by the creator of said work. It is the strictest license there is and allows no one, except the author, to do aynthing with said work. If no license is given, taking the source code might cause legal trouble [read further.](https://choosealicense.com/no-permission/#for-users)
 
 ## ToS
 
