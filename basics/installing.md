@@ -18,6 +18,7 @@ There are multiple sources for mods. It is up to the modder, where and when he w
 When having trouble installing mods, or getting them to work the usual way is at fellows:
 
 1. Update installed mods.
-2. Check mod-loader.log [(ref. path)](/en/basics/path.md##mod-loader.log)
+2. Check mod-loader.log [(ref. path)](/en/basics/path.md#mod-loader.log)
 3. Check installed mods for known compatibility problems.
-4. Check Anno 1800 for problems (very files in Ubisoft launcher)
+4. Check Anno 1800 for problems (very files in Ubisoft launcher).
+5. 
