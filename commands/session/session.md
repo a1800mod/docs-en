@@ -1,11 +1,17 @@
 # session
-```session.toggleResidentView()```
+```
+session.toggleResidentView()
+```
 >goes into first Person mode to current selected Building
 
-```session.killGameObject()```
+```
+session.killGameObject()
+```
 >forces ruins to current selected Object (Player or NPC) or destroys ship. Does not Work on stuff like Emperor Ketemas buildings.
 
-```session.getSessionGUID()```
+```
+session.getSessionGUID()
+```
 >returns... a number
 
 ```

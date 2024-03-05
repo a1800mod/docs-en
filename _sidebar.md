@@ -1,11 +1,14 @@
 <!-- _sidebar.md -->
 
 - [HOME](/en/)
-
 - Basics
   - [Installing Mods](/en/basics/installing)
   - [Programs](/en/basics/programs)
   - [Paths](/en/basics/path)
+  - [ModOp]
+  - [Modinfo]
+- Assets
+  - [Triggers]
 - Lua
   - [Lua-Commands](/en/commands/index)
     - [TextSources](/en/commands/TextSources/ts)
@@ -20,3 +23,4 @@
     - [system](/en/commands/system/system)
 - Tutorials
   - [Fertilities](/en/tutorials/MapFertilities) 
+- [Resources]
