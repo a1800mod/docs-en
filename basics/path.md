@@ -22,11 +22,11 @@ This log contains information about logs and its status of loading.
 
 Info means the mod was successfully loaded.
 
-?> [date-time] [info] Load [Misc] InstantShipBuild (0.0.1, InstantShipBuild) from C:\Users\Public\mod.io\4169\mods\3595702\InstantShipBuild
+> [date-time] [info] Load [Misc] InstantShipBuild (0.0.1, InstantShipBuild) from C:\Users\Public\mod.io\4169\mods\3595702\InstantShipBuild
 
 Warning means the mod contains error in the programming, this may mean it contains wrong paths (e.g. wrong GUID), or contains stuff for unused other mods. A warning may indicate that a mod will not work as intented, it was loaded at least.
 
-?> [date-time] [warning] [Misc] Buildable Residences: No matching node for Path "//Asset[Values/Standard/GUID='112791']/Values/ConstructionCategory/BuildingList/Item[Building = '112685']" (data/config/export/main/asset/assets.xml:40)
+> [date-time] [warning] [Misc] Buildable Residences: No matching node for Path "//Asset[Values/Standard/GUID='112791']/Values/ConstructionCategory/BuildingList/Item[Building = '112685']" (data/config/export/main/asset/assets.xml:40)
 
 Errors mean a mod was not loaded due to various reasons and needs to be checked.
 
