@@ -7,9 +7,12 @@ game.getCorporationTime()
 ```
 game.environmentSetSnowDensity(Percent:float)
 ```
->Sets the snow density in the ARCTIC (only) to int (0-1 with ',' instead of '.'). 0 is lowest but not gone...
-everywhere else it just flickers snow for 1 gametick.
-
+>Sets the snow density where it snows to int (0-1 with ',' instead of '.'). 0 is lowest but not gone...
+if used without snow weather preset it just flickers snow for 1 gametick.
+```
+environmentSetRainDensity(Percent:float)
+```
+>Sets the rain density where it rains to int (0-1 with ',' instead of '.'). 0 is lowest but not gone...
 ```
 game.environmentSetWindDir(Direction:int)
 ```

@@ -14,7 +14,7 @@ The <mark>mod.io</mark> path can be switched by editing the <mark>globalsettings
 There are two interesting log types:
 
 1. mod-loader.log
-2. Anno1800-....log
+2. Anno1800-... .log
 
 ## mod-loader.log
 
@@ -50,7 +50,7 @@ the minimal structure of a mod is:
 
 ## assets.xml
 
-The assets.xml is the core for modding, it contains the <mark>\<ModOp></mark> with the information where and what to modify.
+The assets.xml is the core for modding, it contains the <mark>\<ModOp\></mark> with the information where and what to modify.
 
 ## modinfo.json
 
