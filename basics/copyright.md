@@ -3,7 +3,7 @@
 
 ## No License
 
-The default setting of any published work is <mark>no license</mark>. This means it is under exclusive copyright by the creator of said work. It is the strictest license there is and allows no one, except the author, to do aynthing with said work. If no license is given, taking the source code might cause legal trouble [read further.](https://choosealicense.com/no-permission/#for-users)
+The default setting of any published work is <mark>no license</mark>. This means it is under exclusive copyright by the creator of said work. It is the strictest license there is and allows no one, except the author, to do aynthing with said work. If no license is given, taking the source code might cause legal trouble [read further.](https://choosealicense.com/no-permission)
 
 ## ToS
 
