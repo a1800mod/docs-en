@@ -15,6 +15,7 @@
     - [TextSources](/en/commands/TextSources/ts)
       - [area](/en/commands/TextSources/area)
       - [cheat](/en/commands/TextSources/cheat)
+      - [online](/en/commands/TextSources/online)
     - [debug](/en/commands/debug/debug)
     - [game](/en/commands/game/game)
       - [setDebugTextSource](/en/commands/game/setDebugTextSource)
