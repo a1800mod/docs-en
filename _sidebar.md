@@ -18,6 +18,7 @@
       - [online](/en/commands/TextSources/online)
     - [debug](/en/commands/debug/debug)
     - [game](/en/commands/game/game)
+      - [OnlineManager](/en/commands/game/OnlineManager)
       - [setDebugTextSource](/en/commands/game/setDebugTextSource)
     - [io](/en/commands/io/io)
     - [net](/en/commands/net/net)

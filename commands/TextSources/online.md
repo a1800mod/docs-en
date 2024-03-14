@@ -102,9 +102,10 @@ ts.Online.VoiceChat.IsMicMuted
 ts.Online.VoiceChat.IsSpeakerMuted
 ```
 ```
-ts.Online.VoiceChat.GetIsIgnored()
+ts.Online.VoiceChat.GetIsIgnored(Peer:integer<0-16>)
 ```
->tested 0-100 only returned false (muted localy, others, and blocked)
+>Returns true if local player muted Player at Position Peer
+else returns false
 ```
 ts.Online.VoiceChat.GetIsMicMuted()
 ```
