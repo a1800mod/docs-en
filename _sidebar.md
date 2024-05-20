@@ -27,7 +27,7 @@
     - [session](/en/commands/session/session)
     - [system](/en/commands/system/system)
 - Sounds
-  - [Sounds] (/en/sounds/sound)
+  - [Sounds](/en/sounds/sound)
 - Tutorials
   - [Fertilities](/en/tutorials/MapFertilities) 
 - [Resources]
