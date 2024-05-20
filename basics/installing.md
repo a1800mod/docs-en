@@ -11,9 +11,9 @@ There are multiple sources for mods. It is up to the modder, where and when he w
 
 ## Subscribing
 
-![Modbrowser](modbrowser.png)
+![Modbrowser](/en/basics/modbrowser.png)
 
-![Picture for subscribtion ingame.](subscribe.png)
+![Picture for subscribtion ingame.](/en/basics/subscribe.png)
 
 ## Manual installation
 

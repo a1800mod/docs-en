@@ -23,6 +23,7 @@
       - [setDebugTextSource](/en/commands/game/setDebugTextSource)
     - [io](/en/commands/io/io)
     - [net](/en/commands/net/net)
+    - [os](/en/commands/os/os)
     - [session](/en/commands/session/session)
     - [system](/en/commands/system/system)
 - Tutorials
