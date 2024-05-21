@@ -10,9 +10,9 @@ There are multiple sources for mods. It is up to the modder, where and when he w
 3. [Nexusmods](https://www.nexusmods.com/anno1800/)
 
 ## Subscribing
-<img  src="/en/img/modbrowser.png"/>
+<img  src="./img/modbrowser.png"/>
 
-<img  src="/en/img/subscribe.png"/>
+<img  src="./img/subscribe.png"/>
 
 ## Manual installation
 
