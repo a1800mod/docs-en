@@ -23,6 +23,3 @@ Add parameter to SFX_Mixxer (Tab RTPC > Voice Volume)
 ## SoundsForAnno
 
 https://github.com/anno-mods/soundsforanno
-
-
-
