@@ -26,7 +26,8 @@
     - [os](/en/commands/os/os)
     - [session](/en/commands/session/session)
     - [system](/en/commands/system/system)
-- [Sounds](/en/sounds/sound)
+- 
 - Tutorials
-  - [Fertilities](/en/tutorials/MapFertilities) 
+  - [Fertilities](/en/tutorials/MapFertilities)
+  - [Sounds](/en/tutorials/sounds)
 - [Resources]
