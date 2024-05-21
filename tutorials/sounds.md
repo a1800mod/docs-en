@@ -62,6 +62,8 @@ Currently known values:
 2. de_de
 3. fr_fr
 
+Anno 1800 can only use 4 audiolanguages. Adding Ru to the list above.
+
 ### Adding Range to audio
 
 ## SoundsForAnno
