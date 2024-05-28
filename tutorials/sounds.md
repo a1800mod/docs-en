@@ -32,7 +32,7 @@ Import sound file (.wav) to Mixer. Wave file must not be 8-bit our you will get 
 
 <img  src="./img/import.png">
 
-Add an Play-Event to the imported audio-file.
+Add a Play-Event to the imported audio-file.
 
 <img  src="./img/playevent.png">
 
@@ -51,6 +51,12 @@ Add work Unit to Soundbanks, name it as you like.
 In SoundBankManager (switch Layout [Designer F5/SoundBankManager F7]) drag&drop Event-Default Work Unit to Hierarchy Inclusion.
 
 <img  src="./img/hierarchy.png">
+
+After that edit the soundbanksettings. With the settings finished you can hit the generate all button and have your soundbank generated.
+
+<img  src="./img/soundbanksettings.png">
+
+
 
 ### Adding Languages
 
@@ -72,9 +78,12 @@ Anno 1800 can only use 4 audiolanguages. Adding Ru to the list above.
 
 This tool reads the given (created by wwise) files to xml.
 
-https://github.com/anno-mods/soundsforanno
+Download:https://github.com/anno-mods/soundsforanno
 
-PS C:\Users\Client\Documents\WwiseProjects\serp66> C:\Users\Client\Downloads\SoundsForAnno\SoundsForAnno.exe -f .\en_us\2254188251.json .\de_de\2254188251.json -g 1500001900 -a -s .\de_de\2254188251.bnk .\en_us\2254188251.bnk
+Example input for two languages:
+```
+C:\Users\Client\Documents\WwiseProjects\Test1> C:\Users\Client\Downloads\SoundsForAnno\SoundsForAnno.exe -f .\en_us\2254188251.json .\de_de\2254188251.json -g 2001000001 -a -s .\de_de\2254188251.bnk .\en_us\2254188251.bnk
+```
 
 ## Asset.xml
 
