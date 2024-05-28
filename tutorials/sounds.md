@@ -76,6 +76,24 @@ https://github.com/anno-mods/soundsforanno
 
 PS C:\Users\Client\Documents\WwiseProjects\serp66> C:\Users\Client\Downloads\SoundsForAnno\SoundsForAnno.exe -f .\en_us\2254188251.json .\de_de\2254188251.json -g 1500001900 -a -s .\de_de\2254188251.bnk .\en_us\2254188251.bnk
 
+## Asset.xml
+
+The minimum changes to the asset are:
+
+1. Adding the the new soundbank to the game [ref](/en/tutorials?id=soundbank)
+2. Adding the new soundbank to the regions. [ref](/en/tutorials?id=soundbank)
+3. Add the wwise-id of your sound to an existing audio template
+
+### Soundbank
+
+First you need your generated soundbank .json and .bnk and a [new guid](https://github.com/anno-mods/GuidRanges?tab=readme-ov-file#personal-guid-range).
+
+The name of your soundbankfiles must be the same as the soundbankid. You can find the soundbankid in your generated .json file e.g. ```  "SoundBanks": [
+   {
+    "Id": "2912941678",```
+
+### WwiseID
+
 ## Resources
 
 https://github.com/anno-mods/modding-guide/blob/main/guides/Add%20Sounds.md
