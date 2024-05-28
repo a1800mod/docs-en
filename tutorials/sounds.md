@@ -80,17 +80,44 @@ PS C:\Users\Client\Documents\WwiseProjects\serp66> C:\Users\Client\Downloads\Sou
 
 The minimum changes to the asset are:
 
-1. Adding the the new soundbank to the game [ref](/en/tutorials?id=soundbank)
-2. Adding the new soundbank to the regions. [ref](/en/tutorials?id=soundbank)
+1. Adding the the new soundbank to the game [ref](/en/tutorials/sounds?id=soundbank)
+2. Adding the new soundbank to the regions. [ref](/en/tutorials/sounds?id=soundbank)
 3. Add the wwise-id of your sound to an existing audio template
 
 ### Soundbank
 
 First you need your generated soundbank .json and .bnk and a [new guid](https://github.com/anno-mods/GuidRanges?tab=readme-ov-file#personal-guid-range).
 
-The name of your soundbankfiles must be the same as the soundbankid. You can find the soundbankid in your generated .json file e.g. ```  "SoundBanks": [
+The name of your soundbankfiles must be the same as the soundbankid. You can find the soundbankid in your generated .json file e.g.
+``` "SoundBanks": [
    {
-    "Id": "2912941678",```
+    "Id": "2912941678",
+```
+
+![name_soundbanks](./img/name_soundbanks.png)
+
+This id needs also to be put as the wwiseid in the soundbank. Minimal Soundbanktemplate (made by serp):
+
+```xml
+  <ModOp Type="addNextSibling" GUID="235864">
+    <Asset>
+      <Template>SoundBank</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000000</GUID><!--personal guid range-->
+          <Name>BNK_VO_WC2</Name>
+          <IconFilename>test_data/graphics/wwise_icons/soundbank.png</IconFilename>
+        </Standard>
+        <SoundBank>
+          <SoundBankLocalized>1</SoundBankLocalized>
+        </SoundBank>
+        <WwiseStandard>
+          <WwiseID>2912941678</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+  </ModOp>
+  ```
 
 ### WwiseID
 
