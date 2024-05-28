@@ -82,7 +82,7 @@ The minimum changes to the asset are:
 
 1. Adding the the new soundbank to the game [ref](/en/tutorials/sounds?id=soundbank)
 2. Adding the new soundbank to the regions. [ref](/en/tutorials/sounds?id=soundbank)
-3. Add the wwise-id of your sound to an existing audio template
+3. Add the wwise-id of your sound to an asset.
 
 ### Soundbank
 
@@ -146,9 +146,57 @@ To get the wwiseid of your sound, that you want to play, you have two options.
 
 ```json
 "IncludedEvents": [
-     {
-      "Id": "897965722",
-      "Name": "Play_AsYouWish",
+    {
+    "Id": "897965722",
+    "Name": "Play_AsYouWish",
+    "ObjectPath": "\\Events\\Default Work Unit\\Play_AsYouWish",
+    "GUID": "{7299DA8C-500A-4DAE-A966-16506AFEEEDE}",
+    "DurationType": "OneShot",
+    "DurationMin": "0.931519",
+    "DurationMax": "0.931519",
+```
+
+This id has to be taken into an audiotemplate.
+
+!> Its best to use a new asset instead of replacing old assets.
+
+``` xml
+<ModOp GUID='204954' Type="addNextSibling">
+    <Asset>
+      <Template>Audio</Template>
+      <Values>
+        <Standard>
+          <GUID>2001000001</GUID><!--personal guid range-->
+          <Name>Play_AsYouWish</Name>
+        </Standard>
+        <Audio>
+          <DurationLanguageArray>
+            <English>
+              <DurationMinimum>932</DurationMinimum><!--rounded-->
+              <DurationMaximum>932</DurationMaximum><!--rounded-->
+            </English>
+          </DurationLanguageArray>
+        </Audio>
+        <WwiseStandard>
+          <WwiseID>897965722</WwiseID><!--your wwiseid-->
+        </WwiseStandard>
+      </Values>
+    </Asset>
+</ModOp>
+```
+
+### Final steps
+
+With these steps completed you can now add your audio to either a new audiopool, or to an existing pool. This example sets the _schooner audio move pool_ to our new audio only, so it plays without variation when a new move action is given to the schooner.
+
+```xml
+<!--shorten list to 1 item-->
+<ModOp Type="replace" GUID='700091' Path="/Values/AudioTextPool/AudioTextList">
+    <AudioTextList><Item><AudioText>268568</AudioText></Item></AudioTextList>
+</ModOp>
+<ModOp Type="replace" GUID='268568' Path="/Values/AudioText/AudioAsset">
+    <AudioAsset>2001000001</AudioAsset><!--personal guid range:audio-->
+</ModOp>
 ```
 
 ## Resources
