@@ -12,8 +12,10 @@ Within AudioKinetic install WWise Version 2019.2.15.7667.
 
 ## Optional Programs
 
-https://audio.online-convert.com/convert-to-wav
-Audacity https://www.audacityteam.org/
+1. https://www.fosshub.com/TAudioConverter.html (has portable version)
+2. https://audio.online-convert.com/convert-to-wav (max 3/batch)
+3. https://www.audacityteam.org/
+4. https://www.kabuusoft.com/product/detail/2/kabuu-audio-converter (untested)
 
 ## WWise
 
