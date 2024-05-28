@@ -89,37 +89,67 @@ The minimum changes to the asset are:
 First you need your generated soundbank .json and .bnk and a [new guid](https://github.com/anno-mods/GuidRanges?tab=readme-ov-file#personal-guid-range).
 
 The name of your soundbankfiles must be the same as the soundbankid. You can find the soundbankid in your generated .json file e.g.
-``` "SoundBanks": [
+```json
+"SoundBanks": [
    {
     "Id": "2912941678",
 ```
 
-![name_soundbanks](./img/name_soundbanks.png)
+<img  src="./img/name_soundbanks.png">
 
 This id needs also to be put as the wwiseid in the soundbank. Minimal Soundbanktemplate (made by serp):
 
 ```xml
-  <ModOp Type="addNextSibling" GUID="235864">
-    <Asset>
-      <Template>SoundBank</Template>
-      <Values>
-        <Standard>
-          <GUID>2001000000</GUID><!--personal guid range-->
-          <Name>BNK_VO_WC2</Name>
-          <IconFilename>test_data/graphics/wwise_icons/soundbank.png</IconFilename>
-        </Standard>
-        <SoundBank>
-          <SoundBankLocalized>1</SoundBankLocalized>
-        </SoundBank>
-        <WwiseStandard>
-          <WwiseID>2912941678</WwiseID>
-        </WwiseStandard>
-      </Values>
-    </Asset>
-  </ModOp>
-  ```
+<ModOp Type="addNextSibling" GUID="235864">
+<Asset>
+    <Template>SoundBank</Template>
+    <Values>
+    <Standard>
+        <GUID>2001000000</GUID><!--personal guid range-->
+        <Name>BNK_VO_WC2</Name>
+        <IconFilename>test_data/graphics/wwise_icons/soundbank.png</IconFilename>
+    </Standard>
+    <SoundBank>
+        <SoundBankLocalized>1</SoundBankLocalized>
+    </SoundBank>
+    <WwiseStandard>
+        <WwiseID>2912941678</WwiseID>
+    </WwiseStandard>
+    </Values>
+</Asset>
+</ModOp>
+```
+
+Thereafter we have to load the new soundbank to our designated regions.
+
+```xml
+<ModOp Type="add" GUID="5000001,5000000,160001,114327" Path="/Values/RequiredSoundBanks/SoundBanks">
+<Item>
+    <Bank>2001000000</Bank><!--personal guid range-->
+</Item>
+</ModOp>
+<ModOp Type="add" GUID="133700001" Path="/Values/RequiredSoundBanks/SoundBanks" Condition="@133700001">
+<Item>
+    <Bank>2001000000</Bank><!--personal guid range-->
+</Item>
+</ModOp>
+```
+
+With this you have successfully added your new soundbank to all (current) regions and can play your sound anywhere in the game.
 
 ### WwiseID
+
+To get the wwiseid of your sound, that you want to play, you have two options.
+
+1. use [SoundsForAnno](/en/tutorials/sounds?id=SoundsForAnno) and look into the generated audio.xml
+2. look into the generated .json soundbankfile. Therein your Event-ID is your wwiseid
+
+```json
+"IncludedEvents": [
+     {
+      "Id": "897965722",
+      "Name": "Play_AsYouWish",
+```
 
 ## Resources
 
