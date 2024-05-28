@@ -106,7 +106,7 @@ The name of your soundbankfiles must be the same as the soundbankid. You can fin
 
 <img  src="./img/name_soundbanks.png">
 
-This id needs also to be put as the wwiseid in the soundbank. Minimal Soundbanktemplate (made by serp):
+This id needs also to be put as the wwiseid in the soundbank. Minimal Soundbanktemplate (made by Serp):
 
 ```xml
 <ModOp Type="addNextSibling" GUID="235864">
@@ -129,7 +129,7 @@ This id needs also to be put as the wwiseid in the soundbank. Minimal Soundbankt
 </ModOp>
 ```
 
-Thereafter we have to load the new soundbank to our designated regions.
+Thereafter we have to load the new soundbank to our designated regions (made by Serp).
 
 ```xml
 <ModOp Type="add" GUID="5000001,5000000,160001,114327" Path="/Values/RequiredSoundBanks/SoundBanks">
