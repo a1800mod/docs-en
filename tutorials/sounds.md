@@ -32,7 +32,9 @@ Import sound file (.wav) to Mixer. Wave file must not be 8-bit our you will get 
 
 <img  src="./img/import.png">
 
-Add a Play-Event to the imported audio-file.
+Add a Play-Event to the imported audio-file. The further needed wwise-id is a direct result of the naming for said Play-Event. To have a unique number _I_ suggest a naming scheme as fellowing:
+
+?> \[CreatorName/CreatorShortName\]-\[ShortModName\]-\[Freetext e.g. numbers\]
 
 <img  src="./img/playevent.png">
 
