@@ -17,6 +17,7 @@
       - [cheat](/en/commands/TextSources/cheat)
       - [online](/en/commands/TextSources/online)
       - [toolonehelper](/en/commands/TextSources/toolonehelper)
+      - [winlose](/en/commands/TextSources/winlose)
     - [debug](/en/commands/debug/debug)
     - [game](/en/commands/game/game)
       - [OnlineManager](/en/commands/game/OnlineManager)
