@@ -27,7 +27,7 @@
     - [os](/en/commands/os/os)
     - [session](/en/commands/session/session)
     - [system](/en/commands/system/system)
-- 
+  - [Lua-Tables](/en/tables/event)
 - Tutorials
   - [Fertilities](/en/tutorials/MapFertilities)
   - [Sounds](/en/tutorials/sounds)

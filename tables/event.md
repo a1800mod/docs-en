@@ -1,0 +1,3 @@
+event.OnSessionLoad, OnSessionLoad
+event.OnSessionEnter, OnSessionEnter
+event.OnCameraSequenceEnd, OnSequenceEnd
