@@ -12,6 +12,6 @@ event.OnSessionEnter
 >OnSessionEnter gives no known parameter
 
 ```lua
-event.OnCameraSequenceEnd, OnSequenceEnd sequenceInfo
+event.OnCameraSequenceEnd
 ```
 >OnSequenceEnd gives sequenceInfo parameter
