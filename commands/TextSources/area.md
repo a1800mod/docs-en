@@ -1,4 +1,10 @@
 ## Area
+
+TextSources.TextSourceRoots.AreaManager.Attractivity.SetCheatChangeAttractivityNet(True, False)
+TextSources.TextSourceRoots.AreaManager.Attractivity.SetCheatChangeAttractivityNet(False, False)
+TextSources.TextSourceRoots.AreaManager.Attractivity.SetCheatChangeAttractivityNet(True, True)
+TextSources.TextSourceRoots.AreaManager.Attractivity.SetCheatChangeAttractivityNet(False, True)
+
 ```
 ts.Area.GetArea({SessionID=SID:int,AreaIndex=AID:int,IslandID=IID:int})
 ```
