@@ -16,7 +16,7 @@ There are multiple sources for mods. It is up to the modder, where and when he w
 
 ## Manual installation
 
-
+Mods can be installed manually. This is possible by downloading the mod from your desired source. After that you can either put the .zip or the extracted folder into the desired [path](/en/basics/path). It shouldn't be installed into the mod.io folder. The downside is, you (the user) have to keep track about updates. Folder can also be installed in choosen [path](/en/basics/path) via git, if the repository is aviable in github.
 
 # Troubleshooting
 
