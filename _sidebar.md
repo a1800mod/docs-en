@@ -36,4 +36,5 @@
 - Tutorials
   - [Fertilities](/en/tutorials/MapFertilities)
   - [Sounds](/en/tutorials/sounds)
-- [Resources]
+- Resources
+  - [ColorPicker](/en/colorpicker)
