@@ -15,7 +15,6 @@
         </div>
     </div>
 </section>
-
 <section id="section-hex">
     <h3>Hex</h3>
     <div class="field">
@@ -23,7 +22,6 @@
         <input id="hexcolor"><button class="copy">Copy</button>
     </div>
 </section>
-
 <section id="section-int">
     <h3>Integer Color <em>(used by game)</em></h3>
     <div class="field">
@@ -31,7 +29,6 @@
         <input id="intcolor"><button class="copy">Copy</button>
     </div>
 </section>
-
 <section id="section-rgba">
     <h3>RGBA</h3>
     <div class="field">
@@ -52,21 +49,15 @@
     </div>
     <samp id="rgbacode"></samp>
 </section>
-
 <div id="preview">
     <p></p>
 </div>
-
 <script type="text/javascript">
-
     const el = document.getElementById.bind(document);
-
     // When a section is updated
     function update( changedSection, valueOverride ) {
-
         // Calculate the new value depending on which section changed
         let newColorRgba = {r:0,g:0,b:0,a:0};
-
         switch(changedSection) {
             case 'section-hex':
                 newColorRgba = hex2rgba(el('hexcolor').value);
@@ -87,7 +78,6 @@
                 newColorRgba.a = Math.round(el('pickeralpha').value * 2.55);
                 break;
         }
-
         if( changedSection != 'section-hex' ) {
             el('hexcolor').value = rgba2hex(newColorRgba);
         }
@@ -105,19 +95,14 @@
             el('pickeralpha').value = Math.round( (newColorRgba.a/2.55) * 100000) / 100000;
             el('pickeralpharange').value = el('pickeralpha').value;
         }
-
         let alphaPct = Math.round((newColorRgba.a / 255)*10000)/10000;
         let cssColor = `rgba(${newColorRgba.r},${newColorRgba.g},${newColorRgba.b},${alphaPct})`
         el('rgbacode').innerText = cssColor;
-
         document.querySelectorAll('#preview p')[0].style.backgroundColor = cssColor;
-        
     }
-
     document.addEventListener("DOMContentLoaded",()=>{
         update('section-picker');
     });
-
     // When color picker is updated
     el('pickercolor').addEventListener("change", () => {
         update('section-picker');
@@ -130,7 +115,6 @@
         el('pickeralpha').value = el('pickeralpharange').value;
         update('section-picker');
     }, false);
-
     // When hex is updated
     Array.from(document.querySelectorAll('#section-hex input')).forEach( e => {e.addEventListener("change", () => {
         update('section-hex');
@@ -138,17 +122,14 @@
     Array.from(document.querySelectorAll('#section-hex input')).forEach( e => {e.addEventListener("input", () => {
         update('section-hex');
     }, false)});
-
     // When int is updated
     Array.from(document.querySelectorAll('#section-int input')).forEach( e => {e.addEventListener("change", () => {
         update('section-int');
     }, false)});
-
     // When rgba is updated
     Array.from(document.querySelectorAll('#section-rgba input')).forEach( e => {e.addEventListener("change", () => {
         update('section-rgba');
     }, false)});
-
     Array.from(document.querySelectorAll('button.copy')).forEach( e => {e.addEventListener("click", (e) => {
         console.log(e.target.previousSibling);
         let val;
@@ -158,7 +139,6 @@
             document.execCommand("copy");
         }
     }, false)});
-
     function rgba2hex( rgba ){
         return '#' + [rgba.r,rgba.g,rgba.b,rgba.a].map(x => {
             const hex = x.toString(16)
