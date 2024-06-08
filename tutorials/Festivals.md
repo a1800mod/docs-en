@@ -1,6 +1,6 @@
 # Festivals
 
-[colorpicker](/en/colorpicker.html ':include :type=iframe')
+[colorpicker](/colorpicker.html ':include :type=iframe')
 
 ## Enums
 
