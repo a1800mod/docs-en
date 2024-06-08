@@ -238,6 +238,22 @@ With ParadeWagons you can define your own parade and in which order they are. Th
 <CrowdSoundEvent>200733</CrowdSoundEvent>
 ```
 
+Vanilla ParadeWagon Items:
+1. Oil
+2. ParadeDrums
+3. ParadeTrumpets
+4. ParadeBeerWagon
+5. ParadeDancer
+6. AnarchyParadeWalker
+7. AnarchyParadeDrums
+8. AnarchyParadeTrumpets
+9. AnarchyParadeWagon
+10. ParadeQueen
+11. MountedSingleGuard
+12. MountedGuards
+13. WalkingGuards
+
+
 ### FestivalDecoration
 
 This value (GUID) defines how your city adds decoration to the current streets/buildings.
