@@ -36,5 +36,6 @@
 - Tutorials
   - [Fertilities](/en/tutorials/MapFertilities)
   - [Sounds](/en/tutorials/sounds)
+  - [Festivals](/en/tutorials/Festivals)
 - Resources
-  - [ColorPicker](/en/colorpicker.html)
+  
