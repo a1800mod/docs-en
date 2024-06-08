@@ -248,7 +248,7 @@ This value (GUID) defines how your city adds decoration to the current streets/b
 
 ## Infotips
 
-To properly display the infotip you have to make your own Infotop for your festival.
+To properly display the infotip you have to make your own Infotip for your festival.
 
 ?> data/config/infotips/export.bin.xml
 
