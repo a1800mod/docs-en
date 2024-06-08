@@ -246,6 +246,15 @@ This value (GUID) defines how your city adds decoration to the current streets/b
 <FestivalDecoration>142641</FestivalDecoration>
 ```
 
+## Region
+
+To add the (new) festival to the desired region, you simply add StadiumX to the list of the region:
+
+```xml
+<!--Example-->
+<ModOp Type="add" GUID='141893' Path="/Values/IncidentFestival/FestivalsPerRegion/*[self::{DESIREDREGION}]/AllowedFestivals">;StadiumX</ModOp>
+```
+
 ## Infotips
 
 To properly display the infotip you have to make your own Infotip for your festival.
