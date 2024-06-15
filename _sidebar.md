@@ -20,6 +20,9 @@
       - [interface](/en/commands/TextSources/interface)
       - [mods](/en/commands/TextSources/mods)
       - [online](/en/commands/TextSources/online)
+      - Selection
+        - Object
+          - [Monument](/en/commands/TextSources/Selection/Object/monument)
       - [toolonehelper](/en/commands/TextSources/toolonehelper)
       - [winlose](/en/commands/TextSources/winlose)
     - [debug](/en/commands/debug/debug)
