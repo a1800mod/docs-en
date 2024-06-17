@@ -81,20 +81,21 @@ Ts.AreaManager.Attractivity.SetCheatChangeAttractivityNet(False, False)
 Ts.AreaManager.Attractivity.SetCheatChangeAttractivityNet(True, True)
 Ts.AreaManager.Attractivity.SetCheatChangeAttractivityNet(False, True)
 ```
+> increase attractivity of current island by 1000 (false->decrease true->increase,false->100 true->1000)
 
 ## AreaPopulation
-```
+```lua
 ts.AreaPopulation.PopulationCount
 ```
 >gives the current Population
 
-```
+```lua
 ts.AreaPopulation.SetFillAllResidencesOnIsland()
 ```
 >fills all residences to maximum
 
 ## AreaResidenceConsumption
-```
+```lua
 ts.AreaResidenceConsuption.GetIsDistributionPaused(GUID: int, Population_GUID:int)
 ```
 >returns true if selected good is paused.

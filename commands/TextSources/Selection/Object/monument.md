@@ -290,6 +290,7 @@ ts.Selection.Object.Monument.SetCheatSkipEventTime()
 ```lua
 ts.Selection.Object.Monument.SetCheatUpgradeMicro()
 ```
+> finish a portion of selected monument building phase, hit multiple times to finish it
 
 ```lua
 ts.Selection.Object.Monument.SetOpenExhibitionUI()

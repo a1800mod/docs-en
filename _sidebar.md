@@ -17,12 +17,16 @@
       - [cheat](/en/commands/TextSources/cheat)
       - [contracts](/en/commands/TextSources/contracts)
       - [discovery](/en/commands/TextSources/discovery)
+      - [economy](/en/commands/TextSources/economy)
+      - [expedition](/en/commands/TextSources/expedition)
       - [interface](/en/commands/TextSources/interface)
       - [mods](/en/commands/TextSources/mods)
       - [online](/en/commands/TextSources/online)
+      - [Research](/en/commands/TextSources/research)
       - Selection
         - Object
           - [Monument](/en/commands/TextSources/Selection/Object/monument)
+          - [Shipyard](/en/commands/TextSources/Selection/Object/shipyard)
       - [toolonehelper](/en/commands/TextSources/toolonehelper)
       - [winlose](/en/commands/TextSources/winlose)
     - [debug](/en/commands/debug/debug)
