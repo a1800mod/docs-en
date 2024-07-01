@@ -4,6 +4,7 @@
 render.benchmarkSequenceStarted()
 ```
 > needs further testing, disables the ingameoverlay
+
 <img  src="./img/render.png">
 
 ```lua
