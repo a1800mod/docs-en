@@ -1,10 +1,42 @@
 # render
+
+```lua
+render.benchmarkSequenceStarted()
 ```
-os.execute(command:string)
+> needs further testing, disables the ingameoverlay
+<img  src="./img/render.png">
+
+```lua
+render.benchmarkSequenceStopped()
 ```
->opens a CMD; normal path is your anno 1800 path; it can delete files though use with caution
-!>deprecated and deleted by ubisoft due to security concerns
+> needs further testing, disables the ingameoverlay
+
+```lua
+render.benchmarkStarted()
 ```
-os.exit()
+> needs further testing, disables the ingameoverlay
+
+```lua
+render.benchmarkStopped()
 ```
->kills the process instant (slightly faster than game.fastQuit(1))
+> writes file and returns to desktop with closing the game
+
+```lua
+render.isPostDOFEnabled()
+```
+
+```lua
+render.DebugOutputMode
+```
+
+```lua
+render.PostEffectDOF
+```
+
+```lua
+render.setRenderEnableFlag
+```
+
+```lua
+render.toggleRenderQuestHints()
+```
