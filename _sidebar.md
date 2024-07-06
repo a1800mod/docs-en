@@ -9,8 +9,8 @@
   - [ModOp](/en/basics/modop)
   - [Modinfo](/en/basics/modinfo)
 - Assets
-  - [Triggers]
-  - [ModOps](/en/Assets/ModOp)
+  - [Triggers](/en/Assets/Triggers)
+  - [ModOps](/en/Assets/ModOps)
   - [Properties](/en/Assets/Properties)
   - [Snippets](/en/Assets/snippets)
   - [Texts](/en/Assets/Texts)
