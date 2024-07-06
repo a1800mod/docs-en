@@ -10,6 +10,13 @@
   - [Modinfo](/en/basics/modinfo)
 - Assets
   - [Triggers]
+  - [ModOps](/en/Assets/ModOp)
+  - [Properties](/en/Assets/Properties)
+  - [Snippets](/en/Assets/snippets)
+  - [Texts](/en/Assets/Texts)
+- Models
+  - [cfg](/en/Models/cfg)
+  - [fc](/en/Models/fc)
 - Lua
   - [Lua-Commands](/en/commands/index)
     - [TextSources](/en/commands/TextSources/ts)
@@ -45,4 +52,3 @@
   - [Sounds](/en/tutorials/sounds)
   - [Festivals](/en/tutorials/Festivals)
 - Resources
-  
