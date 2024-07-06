@@ -36,7 +36,8 @@ doesn't seem to work out of the box
         <c.b>0.000000</c.b>
         <c.a>1.000000</c.a>
     </i>
-</ColorGraph>```
+</ColorGraph>
+```
 
 t - percentage of the total GraphDuration
 rgb - red green blue
